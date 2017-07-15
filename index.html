@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Banking Form</title>
+    <link href="validation.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Loan Application</h1>
+    <i>(Currently Active for:)</i>
+    <h2>Adam D. White</h2>
+
+    <form action="">
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" id="firstName">
+        <p>
+            <label for="middleInitial">Middle Initial:</label>
+            <input type="text" name="middleInitial" id="middleInitial">
+        </p>
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" id="lastName">
+        <p>
+            <label for="address">Address:</label>
+            <input type="text" name="address" id="address">
+        </p>
+        <label for="occupation">Occupation:</label>
+        <input type="text" name="occupation" id="occupation">
+        <p>
+            <label for="employer">Employer:</label>
+            <input type="text" name="employer" id="employer">
+        </p>
+        <h4>Select Loan Type:</h4>
+        <select name="loanType">
+      <option value="commercial">Commercial</option>
+      <option value="realestate">Real estate</option>
+      <option value="personal">Personal</option>
+      <option value="mortgage">Mortgage</option>
+    </select>
+        <p>
+            <label for="loanAmount">Loan amount:</label>
+            <input type="number" name="loanAmount" id="loanAmount">
+        </p>
+        <p>
+            <h3>Loan Terms:</h3>
+        </p>
+        <fieldset>
+            <p>Loan length:</p>
+            <p>
+                <label for="fiveYears">5 years</label>
+                <input type="radio" name="loanLength" id="fiveYears">
+            </p>
+            <p>
+                <label for="fifteenYears">15 years</label>
+                <input type="radio" name="loanLength" id="fifteenYears">
+            </p>
+            <p>
+                <label for="thirtyYears">30 years</label>
+                <input type="radio" name="loanLength" id="thirtyYears">
+            </p>
+        </fieldset>
+        <p>
+            <fieldset>
+                <b>Special conditions:</b>
+                <p>
+                    <label for="downPayment">I have a down payment.</label>
+                    <input type="checkbox" name="downPayment" id="downPayment">
+                </p>
+                <p>
+                    <label for="outOfState">Out-of-state resident</label>
+                    <input type="checkbox" name="outOfState" id="outOfState">
+                </p>
+                <p>
+                    <label for="married">Married</label>
+                    <input type="checkbox" name="married" id="married">
+                </p>
+                <p>
+                    <label for="cosigned">Loan will be co-signed</label>
+                    <input type="checkbox" name="cosigned" id="cosigned">
+                    <p>
+                        <label for="other">Additional Conditions:</label>
+                    </p>
+                    <textarea placeholder="Please get bent here"></textarea>
+
+                </p>
+            </fieldset>
+        </p>
+        <h4>Contact Information:</h4>
+        <p>
+            <label for="email">Email Address: *</label>
+            <input type="email" name="email" id="email" placeholder="youremail@email.com">
+        </p>
+        <p>
+            <label for="phone">Phone: *</label>
+            <input type="phone" name="phone" id="phone">
+        </p>
+        <p>
+            <label for="biz link">Any additional links you would like (optional):</label>
+            <input type="url" name="URL" id="url" placeholder="enter web URL">
+        </p>
+        <p>
+            <input type="submit" name="submit" id="submit">
+        </p>
+    </form>
+</body>
+
+</html>

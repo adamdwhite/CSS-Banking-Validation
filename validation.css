@@ -1,0 +1,41 @@
+#url:valid,
+#email:valid {
+    border-color: green;
+}
+
+#url:invalid,
+#email:invalid {
+    border-color: darkred;
+}
+
+
+/* .url:required:invalid {
+     background-color: #000;
+     color: white;
+ }
+ 
+ .url:required:focus:invalid {
+     background-color: red;
+     color: white;
+ }
+ 
+ .url:required:valid {
+     background-color: green;
+     color: white;
+ }
+
+
+ .url:required:invalid {
+     background-color: #000;
+     color: white;
+ }
+ 
+ .url:required:focus:invalid {
+     background-color: red;
+     color: white;
+ }
+ 
+ .url:required:valid {
+     background-color: green;
+     color: white;
+ } */
